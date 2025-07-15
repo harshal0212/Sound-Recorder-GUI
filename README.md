@@ -4,13 +4,13 @@
 <p>
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=harshal0212%2FCalculator%20&countColor=%23263759&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/harshal0212/Calculator)
-![GitHub Repo stars](https://img.shields.io/github/stars/harshal0212/Calculator)
-![GitHub contributors](https://img.shields.io/github/contributors/harshal0212/Calculator)
-![GitHub last commit](https://img.shields.io/github/last-commit/harshal0212/Calculator)
-![GitHub repo size](https://img.shields.io/github/repo-size/harshal0212/Calculator)
-![GitHub total lines](https://sloc.xyz/github/harshal0212/Calculator)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=harshal0212%2FSound-Recorder-GUI%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/harshal0212/Sound-Recorder-GUI)
+![GitHub Repo stars](https://img.shields.io/github/stars/harshal0212/Sound-Recorder-GUI)
+![GitHub contributors](https://img.shields.io/github/contributors/harshal0212/Sound-Recorder-GUI)
+![GitHub last commit](https://img.shields.io/github/last-commit/harshal0212/Sound-Recorder-GUI)
+![GitHub repo size](https://img.shields.io/github/repo-size/harshal0212/Sound-Recorder-GUI)
+![GitHub total lines](https://sloc.xyz/github/harshal0212/Sound-Recorder-GUI)
 
 </p>
 </div>
