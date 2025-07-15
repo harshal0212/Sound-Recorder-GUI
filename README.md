@@ -1,4 +1,21 @@
-# Voice Recorder GUI
+# <p align="center">✨Sound Recorder GUI✨</p>
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<div align="center">
+<p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=harshal0212%2FCalculator%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/harshal0212/Calculator)
+![GitHub Repo stars](https://img.shields.io/github/stars/harshal0212/Calculator)
+![GitHub contributors](https://img.shields.io/github/contributors/harshal0212/Calculator)
+![GitHub last commit](https://img.shields.io/github/last-commit/harshal0212/Calculator)
+![GitHub repo size](https://img.shields.io/github/repo-size/harshal0212/Calculator)
+![GitHub total lines](https://sloc.xyz/github/harshal0212/Calculator)
+
+</p>
+</div>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 A modern, cross-platform voice recorder application built with Python and Tkinter. Features real-time waveform visualization, easy recording management, and export to WAV/MP3.
 
