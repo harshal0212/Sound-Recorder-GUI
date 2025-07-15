@@ -1,0 +1,6 @@
+pyaudio
+numpy
+pydub
+simpleaudio
+# tkinter is included with Python standard library
+# For MP3 export, ffmpeg must be installed and available in PATH 
