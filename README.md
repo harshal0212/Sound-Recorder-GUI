@@ -1,63 +1,59 @@
 # Voice Recorder GUI
 
-A feature-rich, cross-platform voice recorder application built with Python, Tkinter, and PyAudio. Includes real-time waveform visualization, dark/light mode, and export to WAV/MP3.
+A modern, cross-platform voice recorder application built with Python and Tkinter. Features real-time waveform visualization, easy recording management, and export to WAV/MP3.
 
 ## Features
 
-- 🎛️ User-Friendly Interface with Start/Stop buttons, duration timer, and stylish layout
-- 🎤 Real-Time Voice Capture with configurable sample rate, channels, and format
-- 📈 Live Visual Feedback (VU Meter / waveform animation during recording)
-- 🎧 WAV File Export with automatic timestamp-based filenames
-- 📂 Recording History Log to browse previously saved clips
-- 💾 Audio Compression Support (optional: MP3 using pydub and ffmpeg)
-- 🌙 Dark Mode/Light Mode toggle using Tkinter ttk.Style
-- 🧪 Tested for cross-platform compatibility (Windows/Linux/MacOS)
+- 🎛️ User-friendly interface with prominent Record/Stop button and timer
+- 🎤 Real-time voice capture with configurable sample rate and channels
+- 📈 Live waveform preview for each recording
+- 🎧 WAV file export with automatic timestamp-based filenames
+- 📂 Recording history log to browse, play, rename, delete, and download clips
+- 💾 Optional MP3 export (requires ffmpeg and pydub)
+- 🧪 Cross-platform: Windows, Linux, MacOS
 
 ## Setup
 
-1. **Clone the repository**
+### 1. Clone the repository
+```sh
+git clone https://github.com/yourusername/voice-recorder-gui.git
+cd "voice-recorder-gui"
+```
 
-   ```bash
-   git clone <repo-url>
-   cd "Voice Recorder GUI"
-   ```
+### 2. Install dependencies
+```sh
+pip install -r requirements.txt
+```
+- For MP3 export, install [ffmpeg](https://ffmpeg.org/download.html) and ensure it is in your system PATH.
 
-2. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   - For MP3 export, install [ffmpeg](https://ffmpeg.org/download.html) and ensure it is in your system PATH.
-
-3. **Run the application**
-
-   ```bash
-   python main.py
-   ```
+### 3. Run the application
+```sh
+python main.py
+```
 
 ## Usage
+- Click **Record** to start recording audio.
+- Click **Stop** to finish and save the recording.
+- Browse, play, rename, delete, or download recordings from the list.
+- All recordings are saved in the `recordings/` folder.
 
-- Click **Start Recording** to begin capturing audio.
-- Watch the real-time waveform for visual feedback.
-- Click **Stop Recording** to save the file (WAV by default, MP3 if enabled).
-- Browse and open previous recordings from the history log.
-- Toggle between dark and light mode using the theme button.
+## Project Structure
+```
+voice-recorder-gui/
+├── main.py
+├── audio_recorder.py
+├── history.py
+├── requirements.txt
+├── README.md
+└── recordings/           # (auto-created, not tracked in git)
+```
 
-## Configuration
-
-- Sample rate, channels, and format can be adjusted in `audio_recorder.py`.
-- MP3 export requires `pydub` and `ffmpeg`.
-
-## Dependencies
-
-- Python 3.7+
-- PyAudio
-- numpy
-- pydub (for MP3 export)
-- ffmpeg (system dependency for MP3 export)
-- Tkinter (included with Python)
+## Contributing
+1. Fork this repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit: `git commit -am 'Add new feature'`
+4. Push to your fork: `git push origin feature/your-feature`
+5. Open a Pull Request on GitHub
 
 ## License
-
 MIT License 
